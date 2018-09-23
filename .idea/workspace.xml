@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe2a71e9-bea8-4110-b8ee-7cdaedda4654" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Counter/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/redux.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +28,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Counter.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/Counter/Counter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/actions/actions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -55,10 +62,10 @@
         <option value="$PROJECT_DIR$/src/store/actions.js" />
         <option value="$PROJECT_DIR$/src/store/redux.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/result.js" />
-        <option value="$PROJECT_DIR$/src/containers/Counter/Counter.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/counter.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/store/actions/actions.js" />
+        <option value="$PROJECT_DIR$/src/containers/Counter/Counter.js" />
       </list>
     </option>
   </component>
@@ -107,14 +114,14 @@
               <item name="redux--01-start" type="b2602c69:ProjectViewProjectNode" />
               <item name="redux--01-start" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="redux--01-start" type="b2602c69:ProjectViewProjectNode" />
               <item name="redux--01-start" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Counter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,12 +169,12 @@
       <workItem from="1537700815857" duration="5336000" />
       <workItem from="1537715109214" duration="7000" />
       <workItem from="1537732496435" duration="33000" />
-      <workItem from="1537735066163" duration="1103000" />
+      <workItem from="1537735066163" duration="1164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9254000" />
+    <option name="totallyTimeSpent" value="9315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
@@ -380,16 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Counter/Counter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -404,6 +401,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Counter/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
