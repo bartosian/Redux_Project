@@ -4,8 +4,15 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import reducer from './store/redux';
+import { createStore, combineReducers } from 'redux';
+import countReducer from './store/reducers/counter';
+import resReducer from './store/reducers/result';
+
+
+const reducer = combineReducers({
+    count: countReducer,
+    res: resReducer
+});
 
 const store = createStore(reducer);
 
