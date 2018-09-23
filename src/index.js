@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux';
-import { createStore, combineReducers, applyMiddleware } from 'redux';
+import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import countReducer from './store/reducers/counter';
 import resReducer from './store/reducers/result';
 
@@ -26,7 +26,8 @@ const logger = store => {
   };
 };
 
-const store = createStore(reducer, applyMiddleware(logger));
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(reducer, composeEnhancers(applyMiddleware(logger)));
 
 ReactDOM.render(<Provider store={ store }><App /></Provider>, document.getElementById('root'));
 registerServiceWorker();
