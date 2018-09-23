@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe2a71e9-bea8-4110-b8ee-7cdaedda4654" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/containers/Counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Counter/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="actions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/store/actions/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -170,16 +169,15 @@
       <workItem from="1537700815857" duration="5336000" />
       <workItem from="1537715109214" duration="7000" />
       <workItem from="1537732496435" duration="33000" />
-      <workItem from="1537735066163" duration="1521000" />
+      <workItem from="1537735066163" duration="1629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9672000" />
+    <option name="totallyTimeSpent" value="9780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -410,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/actions/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
         </state>
       </provider>
     </entry>
